@@ -1,4 +1,3 @@
-
 name: Build Android App
 
 on:
@@ -34,3 +33,4 @@ jobs:
         run: |
           cd android
           ./gradlew bundleRelease
+
